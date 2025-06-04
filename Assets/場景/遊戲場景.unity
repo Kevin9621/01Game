@@ -585,7 +585,7 @@ Rigidbody2D:
   m_Constraints: 0
 --- !u!114 &909536390
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -605,7 +605,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &909536391
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -623,7 +623,7 @@ MonoBehaviour:
   collisionVar: {fileID: 0}
 --- !u!114 &909536392
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -638,7 +638,7 @@ MonoBehaviour:
   loadingImage: {fileID: 0}
 --- !u!114 &909536393
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -658,7 +658,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &909536394
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -685,7 +685,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &909536395
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -736,9 +736,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 909536394}
-  selectedCommands:
-  - {fileID: 909536390}
+  - {fileID: 909536395}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -875,7 +874,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 50, y: -4.8, z: 0}
-  m_LocalScale: {x: 0.46875003, y: 0.83496094, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -932,7 +931,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 970791611}
   selectedCommands:
-  - {fileID: 970791618}
+  - {fileID: 970791617}
   variables:
   - {fileID: 970791614}
   description: 
@@ -1278,7 +1277,7 @@ MonoBehaviour:
   indentLevel: 0
   _sourceObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 8305003946987419035, guid: 263cb89441e46e94cbaa27aa9b1431b4, type: 3}
+    gameObjectVal: {fileID: 1279567861963283666, guid: 263cb89441e46e94cbaa27aa9b1431b4, type: 3}
   _parentTransform:
     transformRef: {fileID: 0}
     transformVal: {fileID: 0}
@@ -1287,10 +1286,10 @@ MonoBehaviour:
     booleanVal: 0
   _spawnPosition:
     vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
+    vector3Val: {x: 11, y: 0, z: 0}
   _spawnRotation:
     vector3Ref: {fileID: 0}
-    vector3Val: {x: 11, y: 0, z: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
   _newlySpawnedObject:
     gameObjectRef: {fileID: 0}
     gameObjectVal: {fileID: 0}
@@ -1358,7 +1357,7 @@ MonoBehaviour:
   scrollPos: {x: 0, y: 0}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 377
+  blockViewHeight: 363
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -1368,8 +1367,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1242794933}
-  selectedCommands:
-  - {fileID: 1242794930}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1444,7 +1442,7 @@ MonoBehaviour:
   scrollPos: {x: 259, y: 228.5}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 423
+  blockViewHeight: 363
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -1453,9 +1451,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1246064038}
-  selectedCommands:
-  - {fileID: 1246064045}
+  - {fileID: 1246064044}
+  selectedCommands: []
   variables:
   - {fileID: 1246064032}
   description: 
@@ -1553,7 +1550,7 @@ MonoBehaviour:
     gameObjectVal: {fileID: 920819671}
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 6
   _toFrom: 0
   _absAdd: 0
   easeType: 0
@@ -1621,7 +1618,7 @@ MonoBehaviour:
     gameObjectVal: {fileID: 920819671}
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 6
   _toFrom: 0
   _absAdd: 0
   easeType: 0
@@ -1707,7 +1704,7 @@ MonoBehaviour:
     gameObjectVal: {fileID: 1683458803}
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 6
   _toFrom: 0
   _absAdd: 0
   easeType: 0
@@ -1775,7 +1772,7 @@ MonoBehaviour:
     gameObjectVal: {fileID: 1683458803}
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 6
   _toFrom: 0
   _absAdd: 0
   easeType: 0
@@ -1819,8 +1816,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -226
-    y: -178.5
+    x: -225
+    y: -179.5
     width: 106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2196,7 +2193,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -4.8, z: 0}
-  m_LocalScale: {x: 0.46875003, y: 0.83496094, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2257,6 +2254,18 @@ PrefabInstance:
     - target: {fileID: 1131136013896924493, guid: e9256a4ac23fe904bb4fd1c2982e0266, type: 3}
       propertyPath: m_Name
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107374669057567398, guid: e9256a4ac23fe904bb4fd1c2982e0266, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4436848
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107374669057567398, guid: e9256a4ac23fe904bb4fd1c2982e0266, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4436848
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107374669057567398, guid: e9256a4ac23fe904bb4fd1c2982e0266, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4436848
       objectReference: {fileID: 0}
     - target: {fileID: 8107374669057567398, guid: e9256a4ac23fe904bb4fd1c2982e0266, type: 3}
       propertyPath: m_LocalPosition.x
